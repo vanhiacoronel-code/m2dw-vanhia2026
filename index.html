@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table, tr, td, th{
+            border:  solid 1px pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABLAS EN HTML</h1>
+    <hr>
+    <table>
+        <tr> <!-- table row-->
+            <th>Nro.</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr> <!-- table row-->
+        <tr>
+            <td>1</td>
+            <td>Vanhia</td>
+            <td>Coronel</td>
+        </tr>
+        <tr>
+            <tr>
+                <td>2</td>
+                <td>Mia</td>
+                <td>Serna</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Yani</td>
+                <td>Paredes</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Anyi</td>
+                <td>Park</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Qiqi</td>
+                <td>Galeano</td>
+            </tr>
+        </tr>
+    </table>
+    <hr>
+    <form action="#">
+       <fieldset>
+           <legend>In</legend>
+            <label for="inNombre">Nombre:</label>
+            <input type="text" placeholder="Ingresa tu Nombre..."><br>
+            <label for="inApellido">Apellido:</label>
+            <input type="text" placeholder="Ingresa tu Apellido..."><br>
+            <label for="inpassword">Password</label>
+            <input type="password" id="inPassword"><br>
+            <label for="inEmail">Email:</label>
+            <input type="email" id="inEmail" placeholder="Ingresa tu Email"><br>
+            <label for="inNumero">Numero:</label>
+            <input type="numero" id="inNumero" placeholder="Ingresa tu Numero"><br>
+            <label for="">Sexo:</label>
+            <input type="radio"> <span>Masculino</span>
+            <input type="radio"> <span>Femenino</span><br>
+
+            <label for="">Colores favoritos:</label>
+            <input type="checkbox"> <span>Rojo</span>
+            <input type="checkbox"> <span>Azul</span>
+            <input type="checkbox"> <span>Rosado</span>
+
+            <input type="submit" value="Click para enviar!"><br>
+            <input type="button" value="ENVIAR!"><br>
+
+            <input type="file"><br>
+
+            <input type="color"><br>
+            <input type="search"><br>
+            <input type="url"><br>
+            <input type="tel"><br>
+            <input type="date"><br>
+            <input type="datetime-local"><br>
+            <input type="week"><br>
+            <input type="month"><br>
+            <textarea cols="20" rows="5"></textarea>
+            <select>
+                <option value="HTML">--Selecciona un lenguaje--</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JAVASCRIPT">JavaScript</option>
+                <option value="PHP">PHP</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
